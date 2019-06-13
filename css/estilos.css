@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 2500px;
+	margin: 200px auto;
+	background: #3399ff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #4682b4;
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+}
+.dos{
+	margin-left: 34px;
+	margin-right: 34px;
+}
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+
+#izq{
+	width: 290px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: 
+}
+
+footer{
+	width: 400px;
+	height: 200px;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+#slide{
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+}
